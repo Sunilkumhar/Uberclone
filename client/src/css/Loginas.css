@@ -1,0 +1,22 @@
+.loginas {
+  height: 500px;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+.loginas .options {
+  display: flex;
+  margin-top: 270px;
+}
+.loginas .options .driver {
+  color: black;
+  cursor: pointer;
+  padding-left: 25%;
+  width: 150%;
+}
+.loginas .options .rider {
+  color: black;
+  cursor: pointer;
+  padding-left: 100%;
+  width: 200%;
+}

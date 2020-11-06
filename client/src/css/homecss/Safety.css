@@ -1,0 +1,38 @@
+.safetyh {
+  padding: 0px;
+  margin: 100px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* width: 90%; */
+}
+.safetyh .safetyhhead {
+  margin-bottom: 25px;
+}
+.safetyh .safetyhinfo p {
+  color: rgb(95, 95, 95);
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.safetyh p.left {
+  border-bottom: 1px solid rgb(179, 177, 177);
+  color: black;
+  width: 26%;
+  position: relative;
+  font-size: 18px;
+}
+
+.safetyh p.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(27, 27, 27);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.safetyh p.left:hover:before {
+  visibility: visible;
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+.leftpro {
+  padding-top: 50px;
+  margin-left: 50px;
+  height: 100vh;
+  margin-right: 2px;
+
+  background: white;
+}
+.leftpro .riderimg img {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
+}
+.leftpro .riderinfo {
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  /* display: flex; */
+}
+.leftpro .editpro {
+  display: flex;
+  justify-content: center;
+}

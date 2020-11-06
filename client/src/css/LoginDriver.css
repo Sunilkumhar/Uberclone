@@ -1,0 +1,69 @@
+.logindriver {
+  overflow: hidden;
+}
+.logindriver .loginform .error {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.logindriver .loginform .heading {
+  display: flex;
+  justify-content: center;
+}
+.logindriver .rider img {
+  height: 100vh;
+  width: 100%;
+  margin-right: 300px;
+}
+.logindriver .loginform {
+  margin-top: 60%;
+}
+
+.logindriver .loginform .passwordfield .eye {
+  position: relative;
+  left: 90%;
+  bottom: 50px;
+}
+.logindriver .signrider {
+  display: flex;
+}
+
+.error {
+  margin-left: 0px;
+  padding-left: 0px;
+  border: #111111 1px solid;
+  width: 25%;
+  background-color: rgb(219, 33, 33);
+}
+.error p {
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  margin: 0px;
+}
+
+.error .remove {
+  cursor: pointer;
+}
+#proceed {
+  display: block;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 16px;
+  transition: all 0.2s;
+  background-color: rgb(104, 104, 250);
+  letter-spacing: 1.5px;
+  width: 100%;
+}
+
+#proceed:hover {
+  background-color: #2623f3;
+  color: #fbf5f3;
+  transform: translateY(-4px);
+  box-shadow: 0 10px 10px #1a1919;
+}
+#proceed:active {
+  background-color: rgba(63, 243, 46, 0.822);
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px #111111;
+}

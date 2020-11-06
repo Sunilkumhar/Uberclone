@@ -1,0 +1,46 @@
+.registerrider {
+  height: 100vh;
+  background: #f8f8f9;
+}
+.registerrider img {
+  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.registerrider .registerform .error {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.registerrider .registerform .signride {
+  text-align: center;
+}
+.registerrider .registerform .reliable {
+  font-size: 23px;
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+}
+
+.registerrider .registerform {
+  margin: auto;
+  width: 25%;
+}
+.registerrider .head {
+  margin-top: 30px;
+  display: flex;
+}
+.registerrider .head p {
+  float: right;
+}
+.registerrider .maininfo {
+  margin-top: 90px;
+}
+.registerrider .registerform {
+  padding: 20px 50px;
+  background-color: #f8f8f9;
+}
+.registerrider .moreinfo {
+  margin-top: 50px;
+  /* background-color: #eef7e6; */
+}

@@ -1,0 +1,45 @@
+.rightprod {
+  margin-right: 50px;
+  margin-left: 2px;
+  height: 100vh;
+  background: white;
+}
+.rightprod .current {
+  border-bottom: 1px solid black;
+  box-shadow: 10px 10px 8px 10px #888888;
+}
+.rightprod .current .currinfo {
+  padding: 20px;
+}
+.rightprod .current .currinfo h4 {
+  overflow: hidden;
+  height: 32px;
+}
+.rightprod .pickup {
+  background: white;
+  padding: 60px;
+}
+.rightprod .pickup .findicon {
+  font-size: 30px !important;
+  margin-right: 15px;
+}
+.rightprod .pickup .pickupfield .location {
+  font-size: 35px !important;
+  cursor: pointer !important;
+}
+.rightprod .pickup #request {
+  width: 90%;
+  margin: 5px;
+  border-radius: 0px;
+  padding: 10px 0px;
+  background: black;
+  color: white;
+}
+.rightprod .pickup #later {
+  width: 90%;
+  margin: 5px;
+  border-radius: 0px;
+  padding: 10px 0px;
+  background: #eeeeee;
+  color: black;
+}

@@ -1,0 +1,63 @@
+.vehicleimg .citiesinfo {
+  margin-bottom: 170px;
+}
+.vehicleimg .cities {
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+.vehicleimg .cities h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 49px;
+}
+.vehicleimg .left {
+  color: rgb(24, 24, 24);
+}
+.vehicleimg p.left {
+  border-bottom: 1px solid rgb(179, 177, 177);
+  color: black;
+  width: 13%;
+  position: relative;
+  font-size: 18px;
+}
+
+.vehicleimg p.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(27, 27, 27);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.vehicleimg p.left:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.vehicleimg .vehicle {
+  padding-bottom: 50px;
+}
+.vehicleimg .vehicle .carfront {
+  margin-top: 10px;
+  height: 253px;
+}
+.vehicleimg .vehicle .scooty {
+  height: 310px;
+  margin-left: 90px;
+  margin-right: 50px;
+  width: 350px;
+}
+.vehicleimg .vehicle .cycle {
+  margin-top: 10px;
+  height: 200px;
+  width: 350px;
+  margin-left: 50px;
+  margin-right: 90px;
+}
+.vehicleimg .vehicle .carback {
+  position: absolute;
+  right: 0;
+  margin-top: 10px;
+  height: 270px;
+}

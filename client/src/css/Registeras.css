@@ -1,0 +1,22 @@
+.registeras {
+  height: 500px;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+.registeras .optionsr {
+  display: flex;
+  margin-top: 270px;
+}
+.registeras .optionsr .driverr {
+  color: black;
+  cursor: pointer;
+  padding-left: 25%;
+  width: 150%;
+}
+.registeras .optionsr .riderr {
+  color: black;
+  cursor: pointer;
+  padding-left: 100%;
+  width: 220%;
+}

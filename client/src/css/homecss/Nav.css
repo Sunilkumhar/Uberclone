@@ -1,0 +1,55 @@
+/* .navp {
+  height: px;
+} */
+nav {
+  display: flex;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.navp .nav-left {
+  margin-left: 100px;
+}
+.navp .usericon {
+  display: flex;
+  position: absolute;
+  right: 15px;
+}
+.navp .log {
+  padding-right: 10px;
+  border: 1px solid black;
+  border-radius: 50px;
+  height: 45px;
+  margin-right: 5px;
+}
+.navp .log:hover {
+  background-color: rgb(46, 45, 45);
+}
+.navp .avatar {
+  display: flex;
+  color: white;
+}
+.navp .avatar h2 {
+  padding: 0px 10px 15px 10px;
+}
+.usericon .MuiSvgIcon-root {
+  color: white;
+  font-size: 30px !important;
+}
+
+.navp .welcome {
+  display: flex;
+}
+.navp .welcome h4 {
+  color: white;
+  display: flex;
+  margin-right: 10px;
+}
+.navp .usericon .sign {
+  background: white;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+.navp .sign:hover {
+  background-color: rgb(223, 216, 216);
+}

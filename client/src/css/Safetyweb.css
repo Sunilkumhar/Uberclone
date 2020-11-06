@@ -1,0 +1,59 @@
+.safetyweb {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.safetyweb .commitment {
+  margin-top: 100px;
+}
+.safetyweb .commitment .commithead h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 55px;
+}
+.safetyweb .commitment .commithead {
+  margin: 40px 0px;
+}
+.safetyweb .commitment .commitinfo p {
+  color: rgb(95, 95, 95);
+  font-size: 18px;
+}
+.safetyweb .commitment .commitimg img {
+  width: 620px;
+}
+.safetyweb .moresafety {
+  margin-top: 100px;
+  height: 350px;
+}
+.safetyweb .moresafety .morehead h5 {
+  margin: 30px 0px;
+  font-size: 23px;
+}
+.safetyweb .moresafety .moreinfo p {
+  color: rgb(95, 95, 95);
+  margin-right: 40px;
+  font-size: 18px;
+}
+.safetyweb .paginate {
+  position: absolute;
+  top: 1010px;
+  right: 100px;
+  /* margin-top: 100px; */
+  margin-bottom: 3px;
+}
+.safetyweb .buildsafety {
+  margin-top: 100px;
+}
+.safetyweb .buildsafety .buildhead h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 42px;
+}
+.safetyweb .buildsafety .buildhead {
+  margin: 40px 0px;
+}
+.safetyweb .buildsafety .buildinfo h5 {
+  font-size: 22px;
+  margin: 10px 0px 30px 0px;
+}
+.safetyweb .buildsafety .buildinfo p {
+  color: rgb(95, 95, 95);
+  font-size: 18px;
+  margin: 10px 0px 30px 0px;
+}

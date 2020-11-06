@@ -1,0 +1,11 @@
+.mainfooter .registerdfooter {
+  border-top: 2px solid #e7e5e5;
+  margin-top: 15px;
+  padding-bottom: 100px;
+  color: white;
+  background: rgb(8, 8, 8);
+}
+.mainfooter .registerdfooter p {
+  margin-top: 15px;
+  margin-left: 10px;
+}
